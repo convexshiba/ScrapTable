@@ -1,7 +1,7 @@
 
 ## File explanation
 ### 0_DOHMH_New_York_City_Restaurant_Inspection_Results.csv
-Original data.
+Original data. _too large, omited_
 
 ### 1_Only_Useful_Col_DOHMH_New_York_City_Restaurant_Inspection_Results.csv
 Extracted only `CAMIS, DBA, BORO, BUILDING, STREET, ZIPCODE, INSPECTION DATE` columns.
