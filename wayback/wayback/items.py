@@ -9,8 +9,6 @@ from scrapy.item import *
 
 
 class WaybackItem(Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     name = Field()
     neighborhood = Field()
     type = Field()
@@ -19,3 +17,6 @@ class WaybackItem(Item):
     price = Field()
     url = Field()
     address = Field()
+    geocode = Field()
+    county = Field()
+    is_nyc = Field()

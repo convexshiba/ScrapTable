@@ -20,7 +20,8 @@ class WaybackPipeline(object):
                                 "reviews",
                                 "price",
                                 "address",
-                                "url"]
+                                "url",
+                                "is_nyc"]
 
     def close_spider(self, spider):
         self.output.write(self.dataset.csv)
@@ -32,5 +33,5 @@ class WaybackPipeline(object):
 
     def add_item_to_dataset(self, item):
         self.dataset.append(
-            [str(item.get(field)).strip() for field in self.dataset.headers]
+            [item.get(field).encode('utf-8').strip() for field in self.dataset.headers]
         )

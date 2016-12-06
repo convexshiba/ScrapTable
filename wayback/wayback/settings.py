@@ -1,3 +1,9 @@
+##############################################################################
+# DO NOT USE THIS FILE IF USING runner.py TO RUN SPIDER!                     #
+# ADD SETTING TO runner.py INSTEAD!!!!!!!!                                   #
+# THIS FILE IS ONLY FOR RUNNING SPIDER VIA COMMAND LINE!                     #
+##############################################################################
+
 # -*- coding: utf-8 -*-
 
 # Scrapy settings for wayback project

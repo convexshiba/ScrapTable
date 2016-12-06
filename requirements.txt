@@ -1,2 +1,5 @@
-scrapy<=1.2.1
+scrapy==1.2.1
 tablib
+googlemaps==2.4.4
+pyexcel-io
+pyexcel

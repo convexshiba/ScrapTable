@@ -1,0 +1,5012 @@
+{
+  "41468766": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9792527,
+          "lat": 40.6825759
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.97790371970851,
+            "lat": 40.6839248802915
+          },
+          "southwest": {
+            "lng": -73.98060168029151,
+            "lat": 40.6812269197085
+          }
+        }
+      },
+      "place_id": "ChIJdQoaTqxbwokRax8nmPxXlpM",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "57",
+          "short_name": "57"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "4th Avenue",
+          "short_name": "4th Ave"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11217",
+          "short_name": "11217"
+        }
+      ],
+      "formatted_address": "57 4th Ave, Brooklyn, NY 11217, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40370766": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9704988,
+          "lat": 40.7552269
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.96914981970849,
+            "lat": 40.7565758802915
+          },
+          "southwest": {
+            "lng": -73.9718477802915,
+            "lat": 40.7538779197085
+          }
+        }
+      },
+      "place_id": "ChIJv-mm2uJYwokRn-KyyWzyoqE",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "201",
+          "short_name": "201"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "East 49th Street",
+          "short_name": "E 49th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10017",
+          "short_name": "10017"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "1501",
+          "short_name": "1501"
+        }
+      ],
+      "formatted_address": "201 E 49th St, New York, NY 10017, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50001832": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.98877039999999,
+          "lat": 40.7197227
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98742141970848,
+            "lat": 40.72107168029149
+          },
+          "southwest": {
+            "lng": -73.9901193802915,
+            "lat": 40.7183737197085
+          }
+        }
+      },
+      "place_id": "ChIJ0844M4FZwokRtqGq6H6l74A",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "121",
+          "short_name": "121"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Ludlow Street",
+          "short_name": "Ludlow St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower East Side",
+          "short_name": "Lower East Side"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10002",
+          "short_name": "10002"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3204",
+          "short_name": "3204"
+        }
+      ],
+      "formatted_address": "121 Ludlow St, New York, NY 10002, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50007234": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.98790679999999,
+          "lat": 40.7656327
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98655781970848,
+            "lat": 40.7669816802915
+          },
+          "southwest": {
+            "lng": -73.9892557802915,
+            "lat": 40.7642837197085
+          }
+        }
+      },
+      "place_id": "ChIJNXSmT1dYwokRV2ntUZf0hIY",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "401",
+          "short_name": "401"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 53rd Street",
+          "short_name": "W 53rd St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10019",
+          "short_name": "10019"
+        }
+      ],
+      "formatted_address": "401 W 53rd St, New York, NY 10019, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41391795": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.98632099999999,
+          "lat": 40.7226519
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98497201970848,
+            "lat": 40.7240008802915
+          },
+          "southwest": {
+            "lng": -73.98766998029149,
+            "lat": 40.7213029197085
+          }
+        }
+      },
+      "place_id": "ChIJZ0x8sYNZwokRNTkX9qlfBr4",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "9",
+          "short_name": "9"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Avenue A",
+          "short_name": "Avenue A"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10009",
+          "short_name": "10009"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "7978",
+          "short_name": "7978"
+        }
+      ],
+      "formatted_address": "9 Avenue A, New York, NY 10009, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41570461": [
+    {
+      "types": [
+        "street_address"
+      ],
+      "formatted_address": "168 Wythe Ave, Brooklyn, NY 11211, USA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "168",
+          "short_name": "168"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Wythe Avenue",
+          "short_name": "Wythe Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Williamsburg",
+          "short_name": "Williamsburg"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11211",
+          "short_name": "11211"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3012",
+          "short_name": "3012"
+        }
+      ],
+      "place_id": "ChIJ6zxmdGdZwokRit-WJzP19x0",
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9607528,
+          "lat": 40.7195575
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9594038197085,
+            "lat": 40.7209064802915
+          },
+          "southwest": {
+            "lng": -73.9621017802915,
+            "lat": 40.7182085197085
+          }
+        }
+      },
+      "partial_match": true
+    }
+  ],
+  "41619555": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.939251,
+          "lat": 40.6133126
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.93790201970849,
+            "lat": 40.6146615802915
+          },
+          "southwest": {
+            "lng": -73.9405999802915,
+            "lat": 40.6119636197085
+          }
+        }
+      },
+      "place_id": "ChIJh0V-A6FEwokR-QLD2UGkAFc",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "3223",
+          "short_name": "3223"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Quentin Road",
+          "short_name": "Quentin Rd"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Marine Park",
+          "short_name": "Marine Park"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11234",
+          "short_name": "11234"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4236",
+          "short_name": "4236"
+        }
+      ],
+      "formatted_address": "3223 Quentin Rd, Brooklyn, NY 11234, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40900694": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -74.02521709999999,
+          "lat": 40.6224629
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -74.02386811970848,
+            "lat": 40.62381188029149
+          },
+          "southwest": {
+            "lng": -74.0265660802915,
+            "lat": 40.62111391970849
+          }
+        }
+      },
+      "place_id": "ChIJcxskp2BFwokRMHFWZebz_KU",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "8405",
+          "short_name": "8405"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "5th Avenue",
+          "short_name": "5th Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Bay Ridge",
+          "short_name": "Bay Ridge"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11209",
+          "short_name": "11209"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4709",
+          "short_name": "4709"
+        }
+      ],
+      "formatted_address": "8405 5th Ave, Brooklyn, NY 11209, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41226396": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9208909,
+          "lat": 40.7628596
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.91954191970851,
+            "lat": 40.76420858029149
+          },
+          "southwest": {
+            "lng": -73.92223988029151,
+            "lat": 40.7615106197085
+          }
+        }
+      },
+      "place_id": "ChIJ3_YtDzlfwokRlUE8ebCqOGc",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "3408",
+          "short_name": "3408"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "31st Avenue",
+          "short_name": "31st Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Long Island City",
+          "short_name": "LIC"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11106",
+          "short_name": "11106"
+        }
+      ],
+      "formatted_address": "3408 31st Ave, Long Island City, NY 11106, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40878590": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.98330790000001,
+          "lat": 40.760053
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98195891970852,
+            "lat": 40.7614019802915
+          },
+          "southwest": {
+            "lng": -73.98465688029152,
+            "lat": 40.7587040197085
+          }
+        }
+      },
+      "place_id": "ChIJh7Yb_lVYwokRef-xJFNCEuw",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "152",
+          "short_name": "152"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 49th Street",
+          "short_name": "W 49th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Theater District",
+          "short_name": "Theater District"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10019",
+          "short_name": "10019"
+        }
+      ],
+      "formatted_address": "152 W 49th St, New York, NY 10019, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41596150": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.98973939999999,
+          "lat": 40.73080059999999
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9883904197085,
+            "lat": 40.73214958029149
+          },
+          "southwest": {
+            "lng": -73.9910883802915,
+            "lat": 40.72945161970849
+          }
+        }
+      },
+      "place_id": "ChIJhxRu5ZtZwokRskQw0jNNyuw",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "90",
+          "short_name": "90"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "East 10th Street",
+          "short_name": "E 10th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10003",
+          "short_name": "10003"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "5463",
+          "short_name": "5463"
+        }
+      ],
+      "formatted_address": "90 E 10th St, New York, NY 10003, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41582768": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.777802,
+          "lat": 40.691716
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.77645301970848,
+            "lat": 40.6930649802915
+          },
+          "southwest": {
+            "lng": -73.77915098029149,
+            "lat": 40.6903670197085
+          }
+        }
+      },
+      "place_id": "ChIJcyZGUDFhwokROsr5JvRKFjU",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "17206",
+          "short_name": "17206"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Linden Boulevard",
+          "short_name": "Linden Blvd"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Jamaica",
+          "short_name": "Jamaica"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11434",
+          "short_name": "11434"
+        }
+      ],
+      "formatted_address": "17206 Linden Blvd, Jamaica, NY 11434, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41387108": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9617169,
+          "lat": 40.58133
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9603679197085,
+            "lat": 40.5826789802915
+          },
+          "southwest": {
+            "lng": -73.96306588029151,
+            "lat": 40.5799810197085
+          }
+        }
+      },
+      "place_id": "ChIJ7Yn0V0JEwokRDGQ9tLmvSls",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "232",
+          "short_name": "232"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Neptune Avenue",
+          "short_name": "Neptune Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Brighton Beach",
+          "short_name": "Brighton Beach"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11235",
+          "short_name": "11235"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "6303",
+          "short_name": "6303"
+        }
+      ],
+      "formatted_address": "232 Neptune Ave, Brooklyn, NY 11235, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41721974": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.93332099999999,
+          "lat": 40.703111
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9319720197085,
+            "lat": 40.7044599802915
+          },
+          "southwest": {
+            "lng": -73.9346699802915,
+            "lat": 40.7017620197085
+          }
+        }
+      },
+      "place_id": "ChIJmeUhKQdcwokRnO1LRV-oXMc",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "985",
+          "short_name": "985"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Flushing Avenue",
+          "short_name": "Flushing Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East Williamsburg",
+          "short_name": "East Williamsburg"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11206",
+          "short_name": "11206"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4731",
+          "short_name": "4731"
+        }
+      ],
+      "formatted_address": "985 Flushing Ave, Brooklyn, NY 11206, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41487256": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9808539,
+          "lat": 40.734158
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.97950491970849,
+            "lat": 40.7355069802915
+          },
+          "southwest": {
+            "lng": -73.98220288029151,
+            "lat": 40.7328090197085
+          }
+        }
+      },
+      "place_id": "ChIJjYxsO3VZwokRWh7uNmwzq3E",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "317",
+          "short_name": "317"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "1st Avenue",
+          "short_name": "1st Avenue"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10003",
+          "short_name": "10003"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "2989",
+          "short_name": "2989"
+        }
+      ],
+      "formatted_address": "317 1st Avenue, New York, NY 10003, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41124964": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -74.01215239999999,
+          "lat": 40.7041877
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -74.01080341970848,
+            "lat": 40.7055366802915
+          },
+          "southwest": {
+            "lng": -74.0135013802915,
+            "lat": 40.7028387197085
+          }
+        }
+      },
+      "place_id": "ChIJDw6jCBRawokRswpmIfnQMII",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "15",
+          "short_name": "15"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Stone Street",
+          "short_name": "Stone St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10004",
+          "short_name": "10004"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "2212",
+          "short_name": "2212"
+        }
+      ],
+      "formatted_address": "15 Stone St, New York, NY 10004, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41234126": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -74.0101342,
+          "lat": 40.7175552
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -74.00878521970849,
+            "lat": 40.7189041802915
+          },
+          "southwest": {
+            "lng": -74.01148318029149,
+            "lat": 40.7162062197085
+          }
+        }
+      },
+      "place_id": "ChIJPbMCUB5awokRt0soGmOqqIA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "181",
+          "short_name": "181"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Duane Street",
+          "short_name": "Duane St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10013",
+          "short_name": "10013"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3331",
+          "short_name": "3331"
+        }
+      ],
+      "formatted_address": "181 Duane St, New York, NY 10013, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41700183": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.899084,
+          "lat": 40.635921
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.89773501970849,
+            "lat": 40.63726998029149
+          },
+          "southwest": {
+            "lng": -73.90043298029151,
+            "lat": 40.63457201970849
+          }
+        }
+      },
+      "place_id": "ChIJ5ekp6tpcwokR7RxRK7dwRWQ",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "9112",
+          "short_name": "9112"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Avenue L",
+          "short_name": "Avenue L"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Canarsie",
+          "short_name": "Canarsie"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11236",
+          "short_name": "11236"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4819",
+          "short_name": "4819"
+        }
+      ],
+      "formatted_address": "9112 Avenue L, Brooklyn, NY 11236, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50050371": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9606986,
+          "lat": 40.7174387
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9593496197085,
+            "lat": 40.71878768029149
+          },
+          "southwest": {
+            "lng": -73.96204758029151,
+            "lat": 40.71608971970849
+          }
+        }
+      },
+      "place_id": "ChIJxdhmS2dZwokRx7Krr_RCYOg",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "160",
+          "short_name": "160"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Berry Street",
+          "short_name": "Berry St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Williamsburg",
+          "short_name": "Williamsburg"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11249",
+          "short_name": "11249"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3132",
+          "short_name": "3132"
+        }
+      ],
+      "formatted_address": "160 Berry St, Brooklyn, NY 11249, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50049844": [
+    {
+      "geometry": {
+        "location_type": "RANGE_INTERPOLATED",
+        "location": {
+          "lng": -73.9435929,
+          "lat": 40.63191750000001
+        },
+        "bounds": {
+          "northeast": {
+            "lng": -73.9435914,
+            "lat": 40.63191750000001
+          },
+          "southwest": {
+            "lng": -73.9435929,
+            "lat": 40.6319033
+          }
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9422431697085,
+            "lat": 40.63325938029151
+          },
+          "southwest": {
+            "lng": -73.94494113029151,
+            "lat": 40.63056141970851
+          }
+        }
+      },
+      "place_id": "EiYzNDA3IEF2ZW51ZSBILCBCcm9va2x5biwgTlkgMTEyMTAsIFVTQQ",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "3407",
+          "short_name": "3407"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Avenue H",
+          "short_name": "Avenue H"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East Flatbush",
+          "short_name": "East Flatbush"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11210",
+          "short_name": "11210"
+        }
+      ],
+      "formatted_address": "3407 Avenue H, Brooklyn, NY 11210, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50040296": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9860655,
+          "lat": 40.7477154
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98471651970848,
+            "lat": 40.7490643802915
+          },
+          "southwest": {
+            "lng": -73.98741448029149,
+            "lat": 40.7463664197085
+          }
+        }
+      },
+      "place_id": "ChIJdQxV-KhZwokRD6caT9Eq-kg",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "9",
+          "short_name": "9"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 32nd Street",
+          "short_name": "W 32nd St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10001",
+          "short_name": "10001"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3810",
+          "short_name": "3810"
+        }
+      ],
+      "formatted_address": "9 W 32nd St, New York, NY 10001, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40572960": [
+    {
+      "types": [
+        "street_address"
+      ],
+      "formatted_address": "9465 Corona Ave, Flushing, NY 11368, USA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "9465",
+          "short_name": "9465"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Corona Avenue",
+          "short_name": "Corona Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Flushing",
+          "short_name": "Flushing"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11368",
+          "short_name": "11368"
+        }
+      ],
+      "place_id": "ChIJd636t7VfwokR8MtNDJ-la7s",
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.8677227,
+          "lat": 40.74230850000001
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.8663737197085,
+            "lat": 40.74365748029151
+          },
+          "southwest": {
+            "lng": -73.86907168029151,
+            "lat": 40.74095951970851
+          }
+        }
+      },
+      "partial_match": true
+    }
+  ],
+  "41098073": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9898656,
+          "lat": 40.7499664
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98851661970849,
+            "lat": 40.7513153802915
+          },
+          "southwest": {
+            "lng": -73.99121458029151,
+            "lat": 40.7486174197085
+          }
+        }
+      },
+      "place_id": "ChIJMZxyx65ZwokRv_3YGAHpiPA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "133",
+          "short_name": "133"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 33rd Street",
+          "short_name": "West 33rd Street"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10001",
+          "short_name": "10001"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "2903",
+          "short_name": "2903"
+        }
+      ],
+      "formatted_address": "133 West 33rd Street, New York, NY 10001, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50034883": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.8351424,
+          "lat": 40.6983408
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.83379341970848,
+            "lat": 40.69968978029149
+          },
+          "southwest": {
+            "lng": -73.8364913802915,
+            "lat": 40.6969918197085
+          }
+        }
+      },
+      "place_id": "ChIJ9W34DaxgwokRngLH9THbLvU",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "11317",
+          "short_name": "11317"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Jamaica Avenue",
+          "short_name": "Jamaica Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Jamaica",
+          "short_name": "Jamaica"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11418",
+          "short_name": "11418"
+        }
+      ],
+      "formatted_address": "11317 Jamaica Ave, Jamaica, NY 11418, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50048885": [
+    {
+      "types": [
+        "street_address"
+      ],
+      "formatted_address": "37 Allen St, New York, NY 10002, USA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "37",
+          "short_name": "37"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Allen Street",
+          "short_name": "Allen St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10002",
+          "short_name": "10002"
+        }
+      ],
+      "place_id": "ChIJ88sEMShawokRShKNJld2sUg",
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9922266,
+          "lat": 40.7161762
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9908776197085,
+            "lat": 40.7175251802915
+          },
+          "southwest": {
+            "lng": -73.9935755802915,
+            "lat": 40.7148272197085
+          }
+        }
+      },
+      "partial_match": true
+    },
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9922438,
+          "lat": 40.71613809999999
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9908948197085,
+            "lat": 40.71748708029149
+          },
+          "southwest": {
+            "lng": -73.99359278029151,
+            "lat": 40.71478911970849
+          }
+        }
+      },
+      "place_id": "ChIJz_GSMShawokR1Roj4qj3w4k",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "37 1/2",
+          "short_name": "37 1/2"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Allen Street",
+          "short_name": "Allen St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10002",
+          "short_name": "10002"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "5301",
+          "short_name": "5301"
+        }
+      ],
+      "formatted_address": "37 1/2 Allen St, New York, NY 10002, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50014665": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.983898,
+          "lat": 40.6105715
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98254901970849,
+            "lat": 40.6119204802915
+          },
+          "southwest": {
+            "lng": -73.9852469802915,
+            "lat": 40.6092225197085
+          }
+        }
+      },
+      "place_id": "ChIJW6su7R1FwokR4VU6n6MiPA8",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "1425",
+          "short_name": "1425"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 10th Street",
+          "short_name": "W 10th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Bensonhurst",
+          "short_name": "Bensonhurst"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11204",
+          "short_name": "11204"
+        }
+      ],
+      "formatted_address": "1425 W 10th St, Brooklyn, NY 11204, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50004773": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.7754143,
+          "lat": 40.5955066
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.77406531970848,
+            "lat": 40.5968555802915
+          },
+          "southwest": {
+            "lng": -73.7767632802915,
+            "lat": 40.5941576197085
+          }
+        }
+      },
+      "place_id": "ChIJTXdYE5dowokRC_Tep3x4-8Y",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "4317",
+          "short_name": "4317"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Beach Channel Drive",
+          "short_name": "Beach Channel Dr"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Far Rockaway",
+          "short_name": "Far Rockaway"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11691",
+          "short_name": "11691"
+        }
+      ],
+      "formatted_address": "4317 Beach Channel Dr, Far Rockaway, NY 11691, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41613193": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9560601,
+          "lat": 40.7421796
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9547111197085,
+            "lat": 40.7435285802915
+          },
+          "southwest": {
+            "lng": -73.95740908029151,
+            "lat": 40.7408306197085
+          }
+        }
+      },
+      "place_id": "ChIJ8ZW3JSNZwokR8UGbfeNSS-8",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "514",
+          "short_name": "514"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "51st Avenue",
+          "short_name": "51st Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Long Island City",
+          "short_name": "LIC"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11101",
+          "short_name": "11101"
+        }
+      ],
+      "formatted_address": "514 51st Ave, Long Island City, NY 11101, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40668681": [
+    {
+      "types": [
+        "street_address"
+      ],
+      "formatted_address": "152-59 10th Ave, Whitestone, NY 11357, USA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "152-59",
+          "short_name": "152-59"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "10th Avenue",
+          "short_name": "10th Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Whitestone",
+          "short_name": "Whitestone"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11357",
+          "short_name": "11357"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "1233",
+          "short_name": "1233"
+        }
+      ],
+      "place_id": "EioxNTItNTkgMTB0aCBBdmUsIFdoaXRlc3RvbmUsIE5ZIDExMzU3LCBVU0E",
+      "geometry": {
+        "location_type": "RANGE_INTERPOLATED",
+        "location": {
+          "lng": -73.8084025,
+          "lat": 40.7934157
+        },
+        "bounds": {
+          "northeast": {
+            "lng": -73.8084025,
+            "lat": 40.7934157
+          },
+          "southwest": {
+            "lng": -73.8084045,
+            "lat": 40.7934016
+          }
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.80705451970849,
+            "lat": 40.79475763029149
+          },
+          "southwest": {
+            "lng": -73.80975248029151,
+            "lat": 40.79205966970849
+          }
+        }
+      },
+      "partial_match": true
+    }
+  ],
+  "50038366": [
+    {
+      "types": [
+        "street_address"
+      ],
+      "formatted_address": "941 Westchester Ave, Bronx, NY 10459, USA",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "941",
+          "short_name": "941"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Westchester Avenue",
+          "short_name": "Westchester Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "West Bronx",
+          "short_name": "West Bronx"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Bronx",
+          "short_name": "Bronx"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Bronx County",
+          "short_name": "Bronx County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10459",
+          "short_name": "10459"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3106",
+          "short_name": "3106"
+        }
+      ],
+      "place_id": "Eik5NDEgV2VzdGNoZXN0ZXIgQXZlLCBCcm9ueCwgTlkgMTA0NTksIFVTQQ",
+      "geometry": {
+        "location_type": "RANGE_INTERPOLATED",
+        "location": {
+          "lng": -73.8968431,
+          "lat": 40.8221573
+        },
+        "bounds": {
+          "northeast": {
+            "lng": -73.8968333,
+            "lat": 40.8221573
+          },
+          "southwest": {
+            "lng": -73.8968431,
+            "lat": 40.8221452
+          }
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.8954892197085,
+            "lat": 40.82350023029151
+          },
+          "southwest": {
+            "lng": -73.8981871802915,
+            "lat": 40.82080226970851
+          }
+        }
+      },
+      "partial_match": true
+    }
+  ],
+  "41687706": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.841021,
+          "lat": 40.7811367
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.8396720197085,
+            "lat": 40.7824856802915
+          },
+          "southwest": {
+            "lng": -73.84236998029151,
+            "lat": 40.7797877197085
+          }
+        }
+      },
+      "place_id": "ChIJ1XjTxKyKwokRKMwWrUXvHyE",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "2007",
+          "short_name": "2007"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "127th Street",
+          "short_name": "127th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Flushing",
+          "short_name": "Flushing"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11356",
+          "short_name": "11356"
+        }
+      ],
+      "formatted_address": "2007 127th St, Flushing, NY 11356, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41173001": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.8667012,
+          "lat": 40.8319631
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.86535221970848,
+            "lat": 40.8333120802915
+          },
+          "southwest": {
+            "lng": -73.86805018029149,
+            "lat": 40.8306141197085
+          }
+        }
+      },
+      "place_id": "ChIJ9aeD8-n0wokRJwvdfXz0EqM",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "1795",
+          "short_name": "1795"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Westchester Avenue",
+          "short_name": "Westchester Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East Bronx",
+          "short_name": "East Bronx"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Bronx",
+          "short_name": "Bronx"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Bronx County",
+          "short_name": "Bronx County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10472",
+          "short_name": "10472"
+        }
+      ],
+      "formatted_address": "1795 Westchester Ave, Bronx, NY 10472, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41668701": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9532074,
+          "lat": 40.7754699
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.95185841970849,
+            "lat": 40.7768188802915
+          },
+          "southwest": {
+            "lng": -73.95455638029149,
+            "lat": 40.7741209197085
+          }
+        }
+      },
+      "place_id": "ChIJhRdQVrlYwokRLRSAHrX7B1U",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "1590",
+          "short_name": "1590"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "2nd Avenue",
+          "short_name": "2nd Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Upper East Side",
+          "short_name": "UES"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10028",
+          "short_name": "10028"
+        }
+      ],
+      "formatted_address": "1590 2nd Ave, New York, NY 10028, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50011200": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9431311,
+          "lat": 40.7114786
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9417821197085,
+            "lat": 40.7128275802915
+          },
+          "southwest": {
+            "lng": -73.94448008029151,
+            "lat": 40.7101296197085
+          }
+        }
+      },
+      "place_id": "ChIJzzn3aFZZwokR6Uf6rd2_G-E",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "750",
+          "short_name": "750"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Grand Street",
+          "short_name": "Grand St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Williamsburg",
+          "short_name": "Williamsburg"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11211",
+          "short_name": "11211"
+        }
+      ],
+      "formatted_address": "750 Grand St, Brooklyn, NY 11211, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50005384": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -74.135384,
+          "lat": 40.63473
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -74.13403501970849,
+            "lat": 40.6360789802915
+          },
+          "southwest": {
+            "lng": -74.1367329802915,
+            "lat": 40.6333810197085
+          }
+        }
+      },
+      "place_id": "ChIJ3agBzNxNwokRZpKq3T9WTOE",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "271",
+          "short_name": "271"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Port Richmond Avenue",
+          "short_name": "Port Richmond Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Elm Park",
+          "short_name": "Elm Park"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Staten Island",
+          "short_name": "Staten Island"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Richmond County",
+          "short_name": "Richmond County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10302",
+          "short_name": "10302"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "1704",
+          "short_name": "1704"
+        }
+      ],
+      "formatted_address": "271 Port Richmond Ave, Staten Island, NY 10302, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40979519": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.8849836,
+          "lat": 40.8133771
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.88363461970849,
+            "lat": 40.8147260802915
+          },
+          "southwest": {
+            "lng": -73.8863325802915,
+            "lat": 40.8120281197085
+          }
+        }
+      },
+      "place_id": "ChIJO9dA7gb1wokR1Ahes5dUMRQ",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "673",
+          "short_name": "673"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Hunts Point Avenue",
+          "short_name": "Hunts Point Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "West Bronx",
+          "short_name": "West Bronx"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Bronx",
+          "short_name": "Bronx"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Bronx County",
+          "short_name": "Bronx County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10474",
+          "short_name": "10474"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "6535",
+          "short_name": "6535"
+        }
+      ],
+      "formatted_address": "673 Hunts Point Ave, Bronx, NY 10474, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50006705": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.889048,
+          "lat": 40.657304
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.88769901970849,
+            "lat": 40.6586529802915
+          },
+          "southwest": {
+            "lng": -73.8903969802915,
+            "lat": 40.6559550197085
+          }
+        }
+      },
+      "place_id": "ChIJvUHA-P1cwokRvJrksKG4-9U",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "521",
+          "short_name": "521"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Stanley Avenue",
+          "short_name": "Stanley Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East New York",
+          "short_name": "East New York"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Kings County",
+          "short_name": "Kings County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11207",
+          "short_name": "11207"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "7719",
+          "short_name": "7719"
+        }
+      ],
+      "formatted_address": "521 Stanley Ave, Brooklyn, NY 11207, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41583544": [
+    {
+      "geometry": {
+        "location_type": "RANGE_INTERPOLATED",
+        "location": {
+          "lng": -73.9413549,
+          "lat": 40.7920887
+        },
+        "bounds": {
+          "northeast": {
+            "lng": -73.9413549,
+            "lat": 40.7920954
+          },
+          "southwest": {
+            "lng": -73.9413715,
+            "lat": 40.7920887
+          }
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.94001421970849,
+            "lat": 40.7934410302915
+          },
+          "southwest": {
+            "lng": -73.94271218029151,
+            "lat": 40.7907430697085
+          }
+        }
+      },
+      "place_id": "EiUyMTAyIDJuZCBBdmUsIE5ldyBZb3JrLCBOWSAxMDAyOSwgVVNB",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "2102",
+          "short_name": "2102"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "2nd Avenue",
+          "short_name": "2nd Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East Harlem",
+          "short_name": "East Harlem"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10029",
+          "short_name": "10029"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3701",
+          "short_name": "3701"
+        }
+      ],
+      "formatted_address": "2102 2nd Ave, New York, NY 10029, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41679882": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.7029951,
+          "lat": 40.7521758
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.70164611970849,
+            "lat": 40.7535247802915
+          },
+          "southwest": {
+            "lng": -73.70434408029149,
+            "lat": 40.7508268197085
+          }
+        }
+      },
+      "place_id": "ChIJE0yerX9iwokR7k-Ps7Hspiw",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "27111",
+          "short_name": "27111"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Union Turnpike",
+          "short_name": "Union Tpke"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Bellerose Manor",
+          "short_name": "Bellerose Manor"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New Hyde Park",
+          "short_name": "New Hyde Park"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11040",
+          "short_name": "11040"
+        }
+      ],
+      "formatted_address": "27111 Union Tpke, Queens, NY 11040, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50002337": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9869679,
+          "lat": 40.7624439
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9856189197085,
+            "lat": 40.7637928802915
+          },
+          "southwest": {
+            "lng": -73.9883168802915,
+            "lat": 40.7610949197085
+          }
+        }
+      },
+      "place_id": "ChIJdTjZ-1ZYwokRUKUBXIPPDaE",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "308",
+          "short_name": "308"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "West 50th Street",
+          "short_name": "W 50th St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10019",
+          "short_name": "10019"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "6629",
+          "short_name": "6629"
+        }
+      ],
+      "formatted_address": "308 W 50th St, New York, NY 10019, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41107259": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.93466719999999,
+          "lat": 40.7357842
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9333182197085,
+            "lat": 40.73713318029149
+          },
+          "southwest": {
+            "lng": -73.9360161802915,
+            "lat": 40.73443521970849
+          }
+        }
+      },
+      "place_id": "ChIJfTKa38xewokRe79N0aq1GPQ",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "3301",
+          "short_name": "3301"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Greenpoint Avenue",
+          "short_name": "Greenpoint Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Long Island City",
+          "short_name": "LIC"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11101",
+          "short_name": "11101"
+        }
+      ],
+      "formatted_address": "3301 Greenpoint Ave, Long Island City, NY 11101, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41234821": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9914601,
+          "lat": 40.728255
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.99011111970849,
+            "lat": 40.7296039802915
+          },
+          "southwest": {
+            "lng": -73.99280908029151,
+            "lat": 40.7269060197085
+          }
+        }
+      },
+      "place_id": "ChIJ26zKG5tZwokRprU0yBWP6FI",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "34",
+          "short_name": "34"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Cooper Square",
+          "short_name": "Cooper Sq"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10003",
+          "short_name": "10003"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "7110",
+          "short_name": "7110"
+        }
+      ],
+      "formatted_address": "34 Cooper Sq, New York, NY 10003, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50056933": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.93889,
+          "lat": 40.7998327
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9375410197085,
+            "lat": 40.80118168029149
+          },
+          "southwest": {
+            "lng": -73.94023898029151,
+            "lat": 40.79848371970849
+          }
+        }
+      },
+      "place_id": "ChIJK6IKWQj2wokRwPBQWgdf_0M",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "2180",
+          "short_name": "2180"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "3rd Avenue",
+          "short_name": "3rd Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "East Harlem",
+          "short_name": "East Harlem"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10035",
+          "short_name": "10035"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4003",
+          "short_name": "4003"
+        }
+      ],
+      "formatted_address": "2180 3rd Ave, New York, NY 10035, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40398150": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.771394,
+          "lat": 40.76331
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.7700450197085,
+            "lat": 40.7646589802915
+          },
+          "southwest": {
+            "lng": -73.77274298029151,
+            "lat": 40.7619610197085
+          }
+        }
+      },
+      "place_id": "ChIJqx_G4d9hwokR8HfMcx3sJqg",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "21310",
+          "short_name": "21310"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "41st Avenue",
+          "short_name": "41st Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Flushing",
+          "short_name": "Flushing"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11361",
+          "short_name": "11361"
+        }
+      ],
+      "formatted_address": "21310 41st Ave, Flushing, NY 11361, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40837666": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.987785,
+          "lat": 40.720079
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98643601970849,
+            "lat": 40.7214279802915
+          },
+          "southwest": {
+            "lng": -73.9891339802915,
+            "lat": 40.7187300197085
+          }
+        }
+      },
+      "place_id": "ChIJK-ksR4FZwokRsUN_UxjvKl8",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "110",
+          "short_name": "110"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Rivington Street",
+          "short_name": "Rivington St"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Lower Manhattan",
+          "short_name": "Lower Manhattan"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10002",
+          "short_name": "10002"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "8800",
+          "short_name": "8800"
+        }
+      ],
+      "formatted_address": "110 Rivington St, New York, NY 10002, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "50038072": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.8045643,
+          "lat": 40.6965363
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.8032153197085,
+            "lat": 40.6978852802915
+          },
+          "southwest": {
+            "lng": -73.8059132802915,
+            "lat": 40.6951873197085
+          }
+        }
+      },
+      "place_id": "ChIJmXT1vNFgwokRvNRZEZ2Lm74",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "14701",
+          "short_name": "14701"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "Liberty Avenue",
+          "short_name": "Liberty Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Jamaica",
+          "short_name": "Jamaica"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Queens",
+          "short_name": "Queens"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "Queens County",
+          "short_name": "Queens County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11435",
+          "short_name": "11435"
+        }
+      ],
+      "formatted_address": "14701 Liberty Ave, Jamaica, NY 11435, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41696743": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9770794,
+          "lat": 40.7581052
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9757304197085,
+            "lat": 40.7594541802915
+          },
+          "southwest": {
+            "lng": -73.9784283802915,
+            "lat": 40.7567562197085
+          }
+        }
+      },
+      "place_id": "ChIJv-Ghof5YwokRadgEElGgGYI",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "611",
+          "short_name": "611"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "5th Avenue",
+          "short_name": "5th Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10022",
+          "short_name": "10022"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "6813",
+          "short_name": "6813"
+        }
+      ],
+      "formatted_address": "611 5th Ave, New York, NY 10022, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41040475": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9841323,
+          "lat": 40.7379651
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.98278331970849,
+            "lat": 40.73931408029149
+          },
+          "southwest": {
+            "lng": -73.98548128029151,
+            "lat": 40.73661611970849
+          }
+        }
+      },
+      "place_id": "ChIJgzsHiqBZwokRteNSUsQYnTg",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "272",
+          "short_name": "272"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "3rd Avenue",
+          "short_name": "3rd Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Midtown",
+          "short_name": "Midtown"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10010",
+          "short_name": "10010"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "6313",
+          "short_name": "6313"
+        }
+      ],
+      "formatted_address": "272 3rd Ave, New York, NY 10010, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "40677553": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.99119619999999,
+          "lat": 40.7608857
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.9898472197085,
+            "lat": 40.76223468029149
+          },
+          "southwest": {
+            "lng": -73.9925451802915,
+            "lat": 40.75953671970849
+          }
+        }
+      },
+      "place_id": "ChIJCYHM0FNYwokRaMujV46llI0",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "659",
+          "short_name": "659"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "9th Avenue",
+          "short_name": "9th Ave"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "long_name": "Hell's Kitchen",
+          "short_name": "Hell's Kitchen"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Manhattan",
+          "short_name": "Manhattan"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "New York"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "long_name": "New York County",
+          "short_name": "New York County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "10036",
+          "short_name": "10036"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "3614",
+          "short_name": "3614"
+        }
+      ],
+      "formatted_address": "659 9th Ave, New York, NY 10036, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "41606994": [
+    {
+      "geometry": {
+        "location_type": "ROOFTOP",
+        "location": {
+          "lng": -73.9958166,
+          "lat": 40.6313165
+        },
+        "viewport": {
+          "northeast": {
+            "lng": -73.99446761970849,
+            "lat": 40.6326654802915
+          },
+          "southwest": {
+            "lng": -73.99716558029151,
+            "lat": 40.6299675197085
+          }
+        }
+      },
+      "place_id": "ChIJpxQwzzFFwokREd8kE4u3F4M",
+      "address_components": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "long_name": "5505",
+          "short_name": "5505"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "long_name": "13th Avenue",
+          "short_name": "13th Ave"
+        },
+        {
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ],
+          "long_name": "Brooklyn",
+          "short_name": "Brooklyn"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "long_name": "New York",
+          "short_name": "NY"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "long_name": "11219",
+          "short_name": "11219"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "long_name": "4516",
+          "short_name": "4516"
+        }
+      ],
+      "formatted_address": "5505 13th Ave, Brooklyn, NY 11219, USA",
+      "types": [
+        "street_address"
+      ]
+    }
+  ]
+}
