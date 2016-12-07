@@ -186,7 +186,6 @@ Temporary Items
 ## Plugin-specific files:
 
 # IntelliJ
-/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -200,4 +199,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# exclude large file
 /doh/0_DOHMH_New_York_City_Restaurant_Inspection_Results.csv
+/db_hashtable/db/

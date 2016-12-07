@@ -3,3 +3,4 @@ tablib
 googlemaps==2.4.4
 pyexcel-io
 pyexcel
+pymongo
