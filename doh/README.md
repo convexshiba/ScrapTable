@@ -10,6 +10,6 @@ Extracted only `CAMIS, DBA, BORO, BUILDING, STREET, ZIPCODE, INSPECTION DATE` co
 * Data `1_Only_Useful_Col` with an addition year column indicating the year of the inspection.
 * `CAMIS, DBA, BORO, BUILDING, STREET, ZIPCODE, INSPECTION DATE, YEAR`
 
-### 3_address_dict.json
-* A serialized python diction file contains all Google Maps json response for all DOH camis DATA.
-* It can be used by `address_dict = load_camis_address()`. See `3_address_dict_example.py` for example.
+### ~~3_address_dict.json~~
+(use json to store geocode info is very unstable, have switched to mongoDB since it's more json-friendly than SQL database)
+(Mongo db file is too large to store in github so it's excluded from uploading to github)

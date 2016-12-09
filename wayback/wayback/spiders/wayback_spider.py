@@ -1,7 +1,7 @@
 from scrapy import *
 
 from util.googlemap import GoogleMap
-from util.tool import isFloat
+from util.tool import is_float
 from wayback.items import WaybackItem
 
 
@@ -36,7 +36,7 @@ class OTSpider(Spider):
             [item['neighborhood'], item['type']] = row.xpath('.//div[@class="d"]/text()').extract_first().split("|")
 
             stars_count = row.xpath('.//div[@class="Ratings"]/div/@title').extract_first()
-            item['stars'] = [float(s) for s in stars_count.split() if isFloat(s)][0] if stars_count else "-1"
+            item['stars'] = [float(s) for s in stars_count.split() if is_float(s)][0] if stars_count else "-1"
 
             item['reviews'] = row.xpath('.//span[@class="reviews"]/preceding-sibling::text()').extract_first()
             item['price'] = str(len(row.xpath('.//td[@class="PrCol"]/text()').extract_first()))

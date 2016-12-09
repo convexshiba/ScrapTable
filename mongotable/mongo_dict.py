@@ -16,8 +16,9 @@ def to_dict(key, value):
 
 
 class DB(Enum):
-    DOH = "doh_geo"
-    OT = "ot_geo"
+    DOH = 'doh_geo'
+    OT = 'ot_geo'
+    TEST = 'test'
 
 
 class MongoDict:
@@ -25,9 +26,9 @@ class MongoDict:
         self.logger = getLogger("MongoHandler")
         self.client = MongoClient("localhost", 27017)
         self.db = self.client["db"]
-        self.doh_collection = self.db[DB.DOH]
+        self.doh_collection = self.db[DB.DOH.value]
         self.doh_collection.create_index([('key', pymongo.ASCENDING)], unique=True)
-        self.ot_collection = self.db[DB.OT]
+        self.ot_collection = self.db[DB.OT.value]
         self.ot_collection.create_index([('key', pymongo.ASCENDING)], unique=True)
 
     def __contains__(self, item):

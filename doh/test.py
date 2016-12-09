@@ -6,10 +6,7 @@ with open("1_Only_Useful_Col_DOHMH_New_York_City_Restaurant_Inspection_Results.c
         if header:
             header = False
             continue
-        year = row.strip()[-4:]
-        dic.setdefault(year, 0)
-        dic[year] += 1
-        if year == "1900":
-            print(row)
+        camis = row.split(",")[0]
+        dic[camis] = 1
 
-    print(dic)
+    print(len(dic))
