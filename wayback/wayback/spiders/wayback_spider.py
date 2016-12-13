@@ -1,4 +1,4 @@
-from scrapy import *
+from scrapy import Spider, Selector, Request
 
 from util.googlemap import GoogleMap
 from util.tool import is_float
@@ -53,9 +53,9 @@ class OTSpider(Spider):
         item['address'] = ','.join([str(line).strip().replace('\"', '') for line in
                                     response.selector.xpath('//span[@itemprop="streetAddress"]/text()').extract()])
 
-        item['geocode'] = self.gm.geocode(item['address'])[0]['address_components']
-        item['county'] = self.find_county(item['geocode'])
-        item['is_nyc'] = self.gm.is_nyc(item['county'])
+        # item['geocode'] = self.gm.geocode(item['address'])[0]['address_components']
+        # item['county'] = self.find_county(item['geocode'])
+        # item['is_nyc'] = self.gm.is_nyc(item['county'])
 
         self.processed += 1
 

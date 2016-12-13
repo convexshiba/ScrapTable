@@ -1,7 +1,7 @@
-from mongotable.mongo_dict import MongoDict, DB
+from mongotable.mongo_dict import MongoDict, COLLECTION
 
 mh = MongoDict()
-test = DB.TEST
+test = COLLECTION.TEST
 
 print([test, "doesnotexist"] in mh)
 

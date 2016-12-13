@@ -20,3 +20,10 @@ class WaybackItem(Item):
     geocode = Field()
     county = Field()
     is_nyc = Field()
+
+
+class TimeItem(Item):
+    entry_number = Field()
+    url = Field()
+    version_datetime_string = Field()
+    version_datetime = Field()

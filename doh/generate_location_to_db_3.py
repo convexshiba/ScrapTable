@@ -3,7 +3,7 @@ import json
 import os
 from concurrent import futures
 
-from mongotable.mongo_dict import MongoDict, DB
+from mongotable.mongo_dict import MongoDict, COLLECTION
 from util.googlemap import GoogleMap
 from util.tool import AtomicCounter
 
@@ -25,8 +25,8 @@ def store_address_to_db(camis, address):
     total = total_counter.increment()
     counter1 = 0
     counter2 = 0
-    if [DB.DOH, camis] not in mongo_map:
-        mongo_map.put(DB.DOH, camis, gm.get_client().geocode(address))
+    if [COLLECTION.DOH, camis] not in mongo_map:
+        mongo_map.put(COLLECTION.DOH, camis, gm.get_client().geocode(address))
         counter1 = query_counter.increment()
     else:
         counter2 = skipped_counter.increment()

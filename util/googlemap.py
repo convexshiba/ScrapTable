@@ -16,7 +16,7 @@ class GoogleMap:
 
     nyc = {'new york county', 'bronx county', 'kings county', 'new york county', 'queens county', 'richmond county'}
 
-    def __init__(self):
+    def __init__(self) -> None:
 
         self.logger = getLogger("GoogleMap")
         getLogger('requests.packages.urllib3.connectionpool').setLevel(logging.ERROR)
@@ -38,7 +38,7 @@ class GoogleMap:
     def get_client(self):
         return random.choice(self.clients)
 
-    def is_nyc(self, address):
+    def is_nyc(self, address) -> str:
         if address is None:
             return "None"
         return str(address.lower() in self.nyc)
