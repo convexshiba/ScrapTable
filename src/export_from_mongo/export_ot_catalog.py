@@ -8,10 +8,10 @@ data = tablib.Dataset()
 data.headers = ["version_datetime", "version_datetime_string", 'entry_number', 'url']
 
 for entry in mongo.get_collection_iterator(COLLECTION.OT_CATALOG):
-    dict = entry['value']
+    entry_dict = entry['value']
     row = []
     for key in data.headers:
-        row.append(dict[key])
+        row.append(entry_dict[key])
     data.append(row)
 
 print(data.csv)

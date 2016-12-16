@@ -1,6 +1,7 @@
 scrapy==1.2.1
-tablib=0.11.3
+tablib
 googlemaps==2.4.4
 pyexcel-io
 pyexcel
 pymongo
+geopy==1.11.0
