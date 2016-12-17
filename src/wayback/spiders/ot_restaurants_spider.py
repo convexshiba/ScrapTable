@@ -1,8 +1,9 @@
 from scrapy import Spider, Selector, Request
+from scrapy.exceptions import CloseSpider
 from scrapy.http import Response
 
 from mongotable.mongo_dict import MongoDict, COLLECTION
-from wayback.items import TimeItem
+from wayback.items import OTItem
 
 
 class OTRestaurantsSpider(Spider):
@@ -25,51 +26,67 @@ class OTRestaurantsSpider(Spider):
             yield request
 
     def parse_restaurant_page(self, response: Response):
-        self.logger.debug(response.meta['ot_catalog_key'] + " is crawled")
+        self.logger.debug(response.meta['ot_catalog_key'] + " is received")
+        self.try_parse(response)
 
-    def parse(self, response: Response):
-
+    def try_parse(self, response: Response):
         selector = Selector(response)
-        data_rows = selector.xpath('//tr[@class = "a" or @class = "r"]').extract()
+
+        data_rows = selector.xpath('//tr[@class = "a" or @class = "r"]')
 
         if len(data_rows) == 0:
-            data_rows = selector.xpath('//tr[contains(@class, "ResultRow")]').extract()
+            data_rows = selector.xpath('//tr[contains(@class, "ResultRow")]')
 
         if len(data_rows) == 0:
             self.logger.error(response.url + " no data!")
+            raise CloseSpider("data row is empty: " + response.url)
 
-        item = TimeItem()
-        item["url"] = response.url
-        item['entry_number'] = str(len(data_rows))
+        self.logger.debug("Found: " + str(len(data_rows)))
 
-        version_time_raw = selector.xpath('//td[contains(@id, "displayDayEl")]/@title').extract_first()
-        item['version_datetime_string'] = version_time_raw[version_time_raw.find(':') + 2:]
-        item['version_datetime'] = item["url"].split('/')[4]
+        for row in data_rows:
+            self.try_parse_row(row, response)
 
-        yield item
+    def try_parse_row(self, row: Selector, response: Response):
+        item = OTItem()
 
-        next_button_url = selector.xpath('//img[contains(@alt, "Next capture")]/../@href').extract_first()
+        # extract name
+        item['name'] = row.xpath('.//a[@href]/text()').extract_first()
 
-        if self.limit == self.settings.get('LIMIT'):
-            return
+        # extract neighborhood
+        neighborhood = row.xpath('.//div[@class="nn"]/text()').extract_first()
+        if neighborhood is not None:
+            item['neighborhood'] = neighborhood.strip()
 
-        request = Request(self.base_url + next_button_url, callback=self.parse)
-        request.meta['item'] = item
-        yield request
-        self.limit += 1
+        if 'neighborhood' not in item:
+            neighborhood = row.xpath('.//div[@class="d"]/text()').extract_first()
+            if neighborhood is not None:
+                item['neighborhood'] = neighborhood.strip().split("|")[0]
 
-    def parse_address(self, response):
-        item = response.meta['item']
-        item['address'] = ','.join([str(line).strip().replace('\"', '') for line in
-                                    response.selector.xpath('//span[@itemprop="streetAddress"]/text()').extract()])
+        # extract type
+        type_r = row.xpath('.//div[@class="nf"]/text()').extract_first()
+        if type_r is not None:
+            item['type'] = type_r.strip()
 
-        # item['geocode'] = self.gm.geocode(item['address'])[0]['address_components']
-        # item['county'] = self.find_county(item['geocode'])
-        # item['is_nyc'] = self.gm.is_nyc(item['county'])
+        if 'type' not in item:
+            type_r = row.xpath('.//div[@class="d"]/text()').extract_first()
+            if type_r is not None:
+                item['type'] = type_r.strip().split("|")[1]
 
-        self.processed += 1
+        # extract price
+        price = row.xpath('.//td[@class="p"]/text()').extract_first()
+        if price is not None:
+            item["price"] = len(price)
 
-        if self.limit % 50 == 0:
-            self.logger.info("Processed: " + str(self.limit))
+        if 'price' not in item:
+            price = row.xpath('.//td[@class="PrCol"]/text()').extract_first()
+            if price is not None:
+                item["price"] = len(price)
 
-        yield item
+    def verify(self, item: OTItem, field: str, response: Response):
+        if field not in item or item[field] is None:
+            raise CloseSpider("extract field failed: " + field + " " + response.url)
+        else:
+            self.logger.debug("Success: " + str(item[field]))
+            pass
+
+

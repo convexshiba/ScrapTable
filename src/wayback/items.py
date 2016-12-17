@@ -8,7 +8,7 @@
 from scrapy.item import *
 
 
-class WaybackItem(Item):
+class OTItem(Item):
     name = Field()
     neighborhood = Field()
     type = Field()

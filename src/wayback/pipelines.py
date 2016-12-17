@@ -7,7 +7,7 @@
 
 from mongotable.mongo_dict import MongoDict, COLLECTION
 from util.googlemap import GoogleMap
-from wayback.items import WaybackItem, TimeItem
+from wayback.items import OTItem, TimeItem
 
 
 class WaybackPipeline(object):
@@ -21,11 +21,11 @@ class WaybackPipeline(object):
     def close_spider(self, spider):
         pass
 
-    def process_item(self, item: WaybackItem, spider):
+    def process_item(self, item: OTItem, spider):
         self.add_item_to_db(item)
         return item
 
-    def add_item_to_db(self, item: WaybackItem) -> None:
+    def add_item_to_db(self, item: OTItem) -> None:
         pass
 
 

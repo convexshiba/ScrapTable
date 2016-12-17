@@ -2,7 +2,7 @@ from scrapy import Spider, Selector, Request
 
 from util.googlemap import GoogleMap
 from util.tool import is_float
-from wayback.items import WaybackItem
+from wayback.items import OTItem
 
 
 class OTSpider(Spider):
@@ -31,7 +31,7 @@ class OTSpider(Spider):
             if self.limit == self.settings.get('LIMIT'):
                 return
 
-            item = WaybackItem()
+            item = OTItem()
             item['name'] = row.xpath('.//a[@class="r"]/text()').extract_first()
             [item['neighborhood'], item['type']] = row.xpath('.//div[@class="d"]/text()').extract_first().split("|")
 
