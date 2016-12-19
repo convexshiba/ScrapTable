@@ -46,3 +46,16 @@ class WaybackTimePipeline(object):
         else:
             self.spider.logger.debug(item['version_datetime'] + " exist. Skipped")
         pass
+
+
+class OTRestaurantPipeline(object):
+    def __init__(self):
+        self.mongo = MongoDict()
+
+    def process_item(self, item: OTItem, spider):
+        self.spider = spider
+        self.add_item_to_db()
+        return item
+
+    def add_item_to_db(self):
+        pass

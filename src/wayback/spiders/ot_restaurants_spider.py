@@ -1,8 +1,11 @@
+from urllib.parse import urljoin
+
 from scrapy import Spider, Selector, Request
 from scrapy.exceptions import CloseSpider
 from scrapy.http import Response
 
 from mongotable.mongo_dict import MongoDict, COLLECTION
+from util.tool import is_float
 from wayback.items import OTItem
 
 
@@ -10,7 +13,7 @@ class OTRestaurantsSpider(Spider):
     name = 'ot_restaurants_spider.py'
     allowed_domains = ['web.archive.org']
 
-    base_url = 'http://web.archive.org'
+    base_url = 'http://web.archive.org/'
 
     def __init__(self, **kwargs):
         super(OTRestaurantsSpider, self).__init__(name=None, **kwargs)
@@ -49,6 +52,8 @@ class OTRestaurantsSpider(Spider):
     def try_parse_row(self, row: Selector, response: Response):
         item = OTItem()
 
+        item['ot_catalog_key'] = response.meta['ot_catalog_key']
+
         # extract name
         item['name'] = row.xpath('.//a[@href]/text()').extract_first()
 
@@ -81,6 +86,31 @@ class OTRestaurantsSpider(Spider):
             price = row.xpath('.//td[@class="PrCol"]/text()').extract_first()
             if price is not None:
                 item["price"] = len(price)
+
+        # extract url
+        url = row.xpath('.//a[@class="r"]/@href').extract_first()
+        if url is not None:
+            item['url'] = urljoin(response.url, url)
+
+        if 'url' not in item:
+            url = row.xpath('.//a[@href]/@href').extract_first()
+            if url is not None:
+                item['url'] = urljoin(response.url, url)
+
+        # extract stars
+        stars = row.xpath('.//div[@class="Ratings"]/div/@title').extract_first()
+        if stars is not None:
+            item['stars'] = [float(s) for s in stars.split() if is_float(s)][0] if stars else "-1"
+        else:
+            item['stars'] = -1
+
+        # extract reviews
+        reviews = row.xpath('.//span[@class="reviews"]/preceding-sibling::text()').extract_first()
+        if reviews is not None:
+            item['reviews'] = int(reviews)
+        else:
+            item['reviews'] = -1
+        self.verify(item, 'reviews', response)
 
     def verify(self, item: OTItem, field: str, response: Response):
         if field not in item or item[field] is None:
