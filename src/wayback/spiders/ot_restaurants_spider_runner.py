@@ -7,7 +7,7 @@ process = CrawlerProcess({
 
     # DEBUG: More detailed log, will print out each item when they're produced
     # INFO: Informative log, including crawl progress
-    'LOG_LEVEL': 'DEBUG',
+    'LOG_LEVEL': 'CRITICAL',
 
     'ITEM_PIPELINES': {
         # number indicated priority(running order)

@@ -26,11 +26,19 @@ class OTRestaurantsSpider(Spider):
             entry_dict = entry['value']
             request = Request(url=entry_dict['url'], callback=self.parse_restaurant_page)
             request.meta['ot_catalog_key'] = entry['key']
+
+            self.limit += 1
+
+            if self.limit == self.settings.get('LIMIT'):
+                return
+
             yield request
 
     def parse_restaurant_page(self, response: Response):
         self.logger.debug(response.meta['ot_catalog_key'] + " is received")
-        self.try_parse(response)
+        for request in self.try_parse(response):
+            yield request
+        self.logger.critical("processed: " + str(self.limit))
 
     def try_parse(self, response: Response):
         selector = Selector(response)
@@ -47,7 +55,7 @@ class OTRestaurantsSpider(Spider):
         self.logger.debug("Found: " + str(len(data_rows)))
 
         for row in data_rows:
-            self.try_parse_row(row, response)
+            yield self.try_parse_row(row, response)
 
     def try_parse_row(self, row: Selector, response: Response):
         item = OTItem()
@@ -110,7 +118,38 @@ class OTRestaurantsSpider(Spider):
             item['reviews'] = int(reviews)
         else:
             item['reviews'] = -1
-        self.verify(item, 'reviews', response)
+
+        request = Request(item['url'], callback=self.extract_address)
+        request.meta['item'] = item
+        return request
+
+    def extract_address(self, response: Response):
+        item = response.meta['item']
+        selector = Selector(response)
+
+        address = selector.xpath('//li[@class="RestProfileAddressItem"]/text()').extract()
+        if len(address) == 0:
+            address = selector.xpath('//span[@id="RestSearch_lblFullAddress"]/text()').extract()
+        if len(address) == 0:
+            address = selector.xpath('//div[@class="RestProfileAddress"]/text()').extract()
+        if len(address) == 0:
+            address = selector.xpath('//span[@id="ProfileOverview_lblAddressText"]/text()').extract()
+
+        if len(address) == 0:
+            self.logger.critical(address)
+            self.logger.critical(len(address))
+            self.logger.critical(response.url)
+
+        if len(address) != 0:
+            address = ",".join([str(line).strip().replace('\"', '') for line in address])
+            item['address'] = address
+
+        # if 'address' not in item:
+        #     address = ','.join([str(line).strip().replace('\"', '') for line in
+        #                         selector.xpath('//span[@itemprop="streetAddress"]/text()').extract()])
+        #     if address is not "":
+        #         item['address'] = address
+        # self.verify(item, 'address', response)
 
     def verify(self, item: OTItem, field: str, response: Response):
         if field not in item or item[field] is None:
