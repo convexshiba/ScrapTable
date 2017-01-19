@@ -1,9 +1,11 @@
 from urllib.parse import urljoin
 
+import pymongo
 from scrapy import Spider, Selector, Request
 from scrapy.exceptions import CloseSpider
 from scrapy.http import Response
 
+from geo.googlemap import GoogleMap
 from mongotable.mongo_dict import MongoDict, COLLECTION
 from util.tool import is_float
 from wayback.items import OTItem
@@ -20,17 +22,28 @@ class OTRestaurantsSpider(Spider):
         self.limit = 0
         self.processed = 0
         self.mongo = MongoDict()
+        self.gm = GoogleMap()
 
     def start_requests(self):
-        for entry in self.mongo.get_collection_iterator(COLLECTION.OT_CATALOG):
+        limit = self.settings.get('DO_FIRST') if self.settings.get('DO_FIRST') >= 1 else 9999999
+
+        for entry in self.mongo.get_collection_iterator(COLLECTION.OT_CATALOG).sort('key', pymongo.ASCENDING).limit(limit):
             entry_dict = entry['value']
             request = Request(url=entry_dict['url'], callback=self.parse_restaurant_page)
-            request.meta['ot_catalog_key'] = entry['key']
+            request.meta['ot_catalog_key'] = entry['key'] + "_" + entry['value']['entry_number']
 
-            self.limit += 1
+            # if request.meta['ot_catalog_key'] in self.mongo.client[self.settings.get("OUTPUT_DB")].collection_names():
+            #     self.logger.critical(entry['key'] + " skipped")
+            #     continue
 
-            if self.limit == self.settings.get('LIMIT'):
-                return
+            # self.limit += 1
+            # if self.limit >= self.settings.get('LIMIT_CATALOG'):
+            #     return
+
+            if entry['key'] != "20110720053652":
+                self.logger.debug(entry['key'] + " skipped")
+                continue
+            self.logger.critical(entry['key'] + " REQUESTED")
 
             yield request
 
@@ -38,7 +51,6 @@ class OTRestaurantsSpider(Spider):
         self.logger.debug(response.meta['ot_catalog_key'] + " is received")
         for request in self.try_parse(response):
             yield request
-        self.logger.critical("processed: " + str(self.limit))
 
     def try_parse(self, response: Response):
         selector = Selector(response)
@@ -119,37 +131,84 @@ class OTRestaurantsSpider(Spider):
         else:
             item['reviews'] = -1
 
-        request = Request(item['url'], callback=self.extract_address)
+        #
+        request = Request(item['url'], callback=self.extract_geo_fields, dont_filter=True, errback=self.err_yield_item)
         request.meta['item'] = item
         return request
 
-    def extract_address(self, response: Response):
+    def err_yield_item(self, response: Response):
+        item = response.meta['item']
+        yield
+
+
+    def extract_geo_fields(self, response: Response):
         item = response.meta['item']
         selector = Selector(response)
 
-        address = selector.xpath('//li[@class="RestProfileAddressItem"]/text()').extract()
-        if len(address) == 0:
-            address = selector.xpath('//span[@id="RestSearch_lblFullAddress"]/text()').extract()
-        if len(address) == 0:
-            address = selector.xpath('//div[@class="RestProfileAddress"]/text()').extract()
-        if len(address) == 0:
-            address = selector.xpath('//span[@id="ProfileOverview_lblAddressText"]/text()').extract()
+        try:
+            address = selector.xpath('//li[@class="RestProfileAddressItem"]/text()').extract()
+            # self.logger.error("(" + "".join(address) + ")")
+            # self.logger.error(1)
 
-        if len(address) == 0:
-            self.logger.critical(address)
-            self.logger.critical(len(address))
-            self.logger.critical(response.url)
+            if len(address) == 0:
+                address = selector.xpath('//span[@id="RestSearch_lblFullAddress"]/text()').extract()
+                # self.logger.error("(" + "".join(address) + ")")
+                # self.logger.error(2)
 
-        if len(address) != 0:
-            address = ",".join([str(line).strip().replace('\"', '') for line in address])
-            item['address'] = address
+            if len(address) == 0:
+                address = selector.xpath('//div[@class="RestProfileAddress"]/text()').extract()
+                if len("".join(address).strip()) == 0:
+                    address = ""
+                # self.logger.error("(" + "".join(address) + ")")
+                # self.logger.error(3)
 
-        # if 'address' not in item:
-        #     address = ','.join([str(line).strip().replace('\"', '') for line in
-        #                         selector.xpath('//span[@itemprop="streetAddress"]/text()').extract()])
-        #     if address is not "":
-        #         item['address'] = address
-        # self.verify(item, 'address', response)
+            if len(address) == 0:
+                address = selector.xpath('//span[@id="ProfileOverview_lblAddressText"]/text()').extract()
+                # self.logger.error("(" + "".join(address) + ")")
+                # self.logger.error(4)
+
+            if len(address) == 0:
+                address = selector.xpath('//span[@itemprop="streetAddress"]/text()').extract()
+                # self.logger.error("(" + "".join(address) + ")")
+                # self.logger.error(5)
+
+            if len(address) != 0:
+                address = ",".join([str(line).strip().replace('\"', '') for line in address])
+                item['address'] = address
+
+            if len(address) == 0:
+                raise KeyError
+
+                # cleanup address to remove things in bracket
+            # eg: 714 Seventh Avenue (inside Renaissance Hotel)
+            start = item['address'].find('(')
+            end = item['address'].find(')')
+            if start != -1 and end != -1:
+                item['address'] = item['address'][:start - 1] + item['address'][end + 1:]
+
+                # extract geocode
+            item['geocode'] = self.gm.geocode(item['address'])
+
+            if len(item['geocode']) == 0:
+                self.logger.error("geocode empty: " + item['address'])
+                raise KeyError
+
+            item['geocode'] = item['geocode'][0]
+            # extract county
+            item['county'] = self.extract_county(item['geocode']['address_components'], item)
+
+            # extract place_id
+            item['place_id'] = item['geocode']['place_id']
+
+            # set is_nyc
+            item['is_nyc'] = self.gm.check_if_nyc(item['county'])
+
+            item['extract_success'] = True
+        except KeyError or IndexError:
+            item['extract_success'] = False
+            # self.logger.error("Extract failed. Saved anyway: " + str(item))
+
+        yield item
 
     def verify(self, item: OTItem, field: str, response: Response):
         if field not in item or item[field] is None:
@@ -158,4 +217,9 @@ class OTRestaurantsSpider(Spider):
             self.logger.debug("Success: " + str(item[field]))
             pass
 
+    def extract_county(self, geocode, item):
+        for entry in geocode:
+            if 'administrative_area_level_2' in entry['types']:
+                return entry['long_name']
+        self.logger.critical("County Not found: " + str(item))
 

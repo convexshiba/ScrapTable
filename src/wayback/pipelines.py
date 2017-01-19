@@ -4,9 +4,10 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+from logging import getLogger
 
-from mongotable.mongo_dict import MongoDict, COLLECTION
-from util.googlemap import GoogleMap
+from geo.googlemap import GoogleMap
+from mongotable.mongo_dict import MongoDict, COLLECTION, OTRestPipelineMongo
 from wayback.items import OTItem, TimeItem
 
 
@@ -49,13 +50,16 @@ class WaybackTimePipeline(object):
 
 
 class OTRestaurantPipeline(object):
-    def __init__(self):
-        self.mongo = MongoDict()
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(settings=crawler.settings)
+
+    def __init__(self, settings):
+        self.settings = settings
+        self.logger = getLogger("OTRestaurantPipeline")
+        self.mongo = OTRestPipelineMongo(self.settings.get("OUTPUT_DB"))
 
     def process_item(self, item: OTItem, spider):
         self.spider = spider
-        self.add_item_to_db()
+        self.mongo.store_otitem(item)
         return item
-
-    def add_item_to_db(self):
-        pass

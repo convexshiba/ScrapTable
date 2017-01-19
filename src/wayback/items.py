@@ -9,32 +9,21 @@ from scrapy.item import *
 
 
 class OTItem(Item):
-    #
+    # done
     name = Field()
-
-    #
     neighborhood = Field()
-
-    #
     type = Field()
-
-    #
     stars = Field()
-
-    #
     reviews = Field()
-
-    #
     price = Field()
-
-    #
     url = Field()
-
     address = Field()
     geocode = Field()
+    ot_catalog_key = Field()
     county = Field()
     is_nyc = Field()
-    ot_catalog_key = Field()
+    place_id = Field()
+    extract_success = Field()
 
 
 class TimeItem(Item):

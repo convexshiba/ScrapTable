@@ -5,3 +5,4 @@ pyexcel-io
 pyexcel
 pymongo
 geopy==1.11.0
+python-Levenshtein

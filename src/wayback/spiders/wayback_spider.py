@@ -1,6 +1,6 @@
 from scrapy import Spider, Selector, Request
 
-from util.googlemap import GoogleMap
+from geo.googlemap import GoogleMap
 from util.tool import is_float
 from wayback.items import OTItem
 

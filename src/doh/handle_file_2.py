@@ -3,8 +3,8 @@ import json
 import os
 from concurrent import futures
 
+from geo.googlemap import GoogleMap
 from mongotable.mongo_dict import MongoDict, COLLECTION
-from util.googlemap import GoogleMap
 from util.tool import AtomicCounter
 
 
@@ -34,6 +34,18 @@ def store_address_to_db(camis, address):
         print("> Queried: " + str(counter1) + " items." + " Skipped: " + str(counter2) + " items.")
 
 
+def load_to_db(row: str, camis: str):
+    total = total_counter.increment()
+    counter1 = 0
+    counter2 = 0
+    if [COLLECTION.DOH_RAW, camis] not in mongo_map:
+        mongo_map.put(COLLECTION.DOH_RAW, camis, row)
+        counter1 = query_counter.increment()
+
+    if total % 10 == 0:
+        print("> Queried: " + str(counter1) + " items." + "total items:" + str(total))
+
+
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(inspect.getsourcefile(DummyClass))), '3_address_dict.json')
 
 if __name__ == "__main__":
@@ -51,14 +63,19 @@ if __name__ == "__main__":
               encoding='utf-8') as originFile:
         with futures.ThreadPoolExecutor(max_workers=None) as executor:
             header = True
-            for row in originFile:
+            for text in originFile:
                 if header:
                     header = False
                     continue
-                address = generate_address(row)
-                camis = row.strip().split(",")[0]
 
-                executor.submit(store_address_to_db, camis, address)
+                address = generate_address(text)
+
+                camis = text.strip().split(",")[0]
+
+                date = text.strip().split(",")[-2]
+
+                # executor.submit(store_address_to_db, camis, address)
+                executor.submit(load_to_db, text, camis)
 
                 # print(address)
 

@@ -7,14 +7,20 @@ process = CrawlerProcess({
 
     # DEBUG: More detailed log, will print out each item when they're produced
     # INFO: Informative log, including crawl progress
-    'LOG_LEVEL': 'CRITICAL',
+    'LOG_LEVEL': 'DEBUG',
 
     'ITEM_PIPELINES': {
         # number indicated priority(running order)
-        # 'wayback.pipelines.WaybackTimePipeline': 10,
+        'wayback.pipelines.OTRestaurantPipeline': 10,
     },
 
     'LIMIT': -1,
+    'LIMIT_CATALOG': 4,
+    'DO_FIRST': -1,
+
+    'OUTPUT_DB': 'ot_db_try8',
+
+    # 'CONCURRENT_REQUESTS': 1,
 
     'AUTOTHROTTLE_ENABLED': True,
     'AUTOTHROTTLE_START_DELAY': 1,
