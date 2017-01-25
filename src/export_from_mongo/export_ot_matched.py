@@ -17,5 +17,5 @@ for entry in mongo.client["ot_db_try7_fulll_stepped_matched"]['20101206120344_18
     data.append(row)
 
 print(data.csv)
-with open("ot_201012_matched.csv", "w") as file:
+with open("ot_201012_raw.csv", "w") as file:
     file.write(data.csv)
